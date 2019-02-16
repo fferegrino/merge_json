@@ -1,6 +1,7 @@
 import json
 from glob import glob
 
+
 def merge(input_file_pattern, output_file, transform_function=None, indent=None):
     """
     Merge json objects stored in a directory specified by :input_file_pattern
